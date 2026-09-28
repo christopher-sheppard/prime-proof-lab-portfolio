@@ -1,0 +1,102 @@
+{
+  "prepared_date": "2026-09-28",
+  "source": "Four user-supplied screenshots of the private local dashboard. No direct localhost session accessed.",
+  "method": "Lossless rectangular crops and one fully opaque source-identifier mask. Original pixels preserved everywhere else. No generated or reconstructed image content in these deliverables.",
+  "scope": "Browser chrome, sidebars with snapshot identifiers and timestamps, and offscreen source-ID rows excluded by cropping. The selected review source identifier is masked. Aggregate business metrics, raw lane cities, historical dates and data-quality counts remain visible.",
+  "files": [
+    {
+      "file": "01_business_overview.png",
+      "source_sha256": "c9e8219507975de217193dcb2e08170b09f46258d61966e86ef433a6bfd9635a",
+      "output_sha256": "540c446bf68d1c62551b220d2700f947d83b8bccb0f9752fe6804a070c220548",
+      "original_dimensions": {
+        "width": 2048,
+        "height": 1231
+      },
+      "crop": {
+        "left": 474,
+        "top": 190,
+        "width": 1480,
+        "height": 954
+      },
+      "masks_original_coordinates": [],
+      "pixels_compared": 1411920,
+      "unexpected_pixel_changes": 0,
+      "opaque_mask_pixels": 0,
+      "embedded_exif_xmp_iptc_icc": false
+    },
+    {
+      "file": "02_freight_lane_history.png",
+      "source_sha256": "6d4b173b115467612c4150f07b98b583434cc7039dc347a4fba11a0642b92b6f",
+      "output_sha256": "83554b0ccaf83b699384778422e11958f6707aa8207e47c3df77df358257fe58",
+      "original_dimensions": {
+        "width": 2048,
+        "height": 1231
+      },
+      "crop": {
+        "left": 474,
+        "top": 194,
+        "width": 1480,
+        "height": 934
+      },
+      "masks_original_coordinates": [],
+      "pixels_compared": 1382320,
+      "unexpected_pixel_changes": 0,
+      "opaque_mask_pixels": 0,
+      "embedded_exif_xmp_iptc_icc": false
+    },
+    {
+      "file": "03_data_quality_sources.png",
+      "source_sha256": "b108c0335fe003f2e5f5e9fe9ee92163858afabd2e0ec3516706595bd5a3a5a2",
+      "output_sha256": "149fa01bf42c91df5edf641b8e29ee2e5580ce32c9ca7601e13e16f7a227e287",
+      "original_dimensions": {
+        "width": 2048,
+        "height": 1231
+      },
+      "crop": {
+        "left": 474,
+        "top": 190,
+        "width": 1480,
+        "height": 938
+      },
+      "masks_original_coordinates": [],
+      "pixels_compared": 1388240,
+      "unexpected_pixel_changes": 0,
+      "opaque_mask_pixels": 0,
+      "embedded_exif_xmp_iptc_icc": false
+    },
+    {
+      "file": "04_settlement_review_desk.png",
+      "source_sha256": "79ae635ef0f400f9a0661162c2edd1e87f80e8485e70d7230b7ed192ec03f8bd",
+      "output_sha256": "7eda4ac12c5a666281626fb7225251f0cb32c720a3f8a31cc8cd99d2838cee38",
+      "original_dimensions": {
+        "width": 2048,
+        "height": 1231
+      },
+      "crop": {
+        "left": 474,
+        "top": 198,
+        "width": 1480,
+        "height": 1020
+      },
+      "masks_original_coordinates": [
+        {
+          "left": 1010,
+          "top": 774,
+          "width": 90,
+          "height": 30,
+          "reason": "Source record identifier",
+          "rgba": [
+            21,
+            45,
+            66,
+            255
+          ]
+        }
+      ],
+      "pixels_compared": 1506900,
+      "unexpected_pixel_changes": 0,
+      "opaque_mask_pixels": 2700,
+      "embedded_exif_xmp_iptc_icc": false
+    }
+  ]
+}

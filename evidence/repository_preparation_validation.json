@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-28T03:11:22.176101+00:00",
+  "finished_at": "2026-09-28T03:11:30.759542+00:00",
+  "command": ".venv/bin/python -m unittest discover -s tests -v",
+  "exit_code": 0,
+  "python": "3.13.15",
+  "streamlit": "1.64.0",
+  "pandas": "3.0.6",
+  "log": "evidence/repository_preparation_unittest.txt",
+  "log_sha256": "fb8e5e837df652d90cd909f80cbf2b188ca0cbead5b93308ed9312797cb167c2",
+  "browser_smoke_rerun": false,
+  "scope": "Independent rerun of uploaded synthetic release; no private settlement archive accessed."
+}

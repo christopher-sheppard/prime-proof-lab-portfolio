@@ -1,0 +1,35 @@
+{
+  "validated_at": "2026-09-28T00:02:23.589383+00:00",
+  "spec_revision": "1.1",
+  "python": "3.13.15",
+  "streamlit": "1.64.0",
+  "pandas": "3.0.6",
+  "tests_passed": 65,
+  "test_command": ".venv/bin/python -m unittest discover -s tests -q",
+  "synthetic_metric": {
+    "owner_cents": 40000,
+    "total_miles": 300,
+    "eligible_legs": 2,
+    "weighted_rpm": 1.3333333333333333
+  },
+  "checks": [
+    "all four Streamlit pages",
+    "actual Chromium synthetic and private source rendering",
+    "SQL/CSV/JSON/UI cohort agreement",
+    "unchanged existing financial/history tables",
+    "consistent snapshot restore",
+    "durable decisions after restart",
+    "duplicate idempotency keys",
+    "stale values and reparse revision conflicts",
+    "two plants under one organization",
+    "rollback on validation failure",
+    "ledger-commit/journal-acknowledgement recovery",
+    "snapshot-publication failure and retry",
+    "missing PDF and path containment",
+    "empty dataset and empty reconciled subset"
+  ],
+  "private_evidence_in_public_release": false,
+  "powerbi_desktop": "pending",
+  "powerplatform": "pending",
+  "git_publication": "not performed"
+}

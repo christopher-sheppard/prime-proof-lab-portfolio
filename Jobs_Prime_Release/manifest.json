@@ -1,0 +1,19 @@
+{
+  "prepared_at": "2026-09-28T00:02:23.589383+00:00",
+  "case_identity": "CS002 extension; canonical sources not edited",
+  "release_status": "Linux application demonstrated; publication pending",
+  "tests_passed": 65,
+  "artifacts": [
+    "Prime_Case_Study_Update.md",
+    "Skill_Evidence_Map.md",
+    "Release_Evidence.md",
+    "Demo_Walkthrough.md",
+    "Career_Source_Update_Notes.md"
+  ],
+  "pending": [
+    "Power BI Desktop runtime",
+    "Power Apps/Dataverse/Power Automate runtime",
+    "canonical career-source integration",
+    "upload to separate Jobs project"
+  ]
+}

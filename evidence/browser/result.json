@@ -1,0 +1,24 @@
+{
+  "dataset": "synthetic",
+  "pages": [
+    {
+      "page": "Business Overview",
+      "rendered": true
+    },
+    {
+      "page": "Freight and Lane History",
+      "rendered": true
+    },
+    {
+      "page": "Data Quality and Sources",
+      "rendered": true
+    },
+    {
+      "page": "Settlement Review Desk",
+      "rendered": true
+    }
+  ],
+  "source_image_rendered": true,
+  "decision_survived_browser_reload": true,
+  "browser_errors": []
+}

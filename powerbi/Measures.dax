@@ -1,0 +1,29 @@
+// Preparation only: these measures have not been executed in Desktop.
+DataMode = DATATABLE("Mode", STRING, {{"Preliminary history"}, {"Reconciled subset"}})
+
+Candidate Owner Dollars =
+VAR Reconciled = SELECTEDVALUE(DataMode[Mode], "Preliminary history") = "Reconciled subset"
+VAR Cohort = FILTER(FactLoadLeg, IF(Reconciled, FactLoadLeg[reconciled_rpm_eligible] = 1, FactLoadLeg[preliminary_rpm_eligible] = 1))
+RETURN DIVIDE(SUMX(Cohort, FactLoadLeg[candidate_dispatch_owner_cents]), 100)
+
+Eligible Total Miles =
+VAR Reconciled = SELECTEDVALUE(DataMode[Mode], "Preliminary history") = "Reconciled subset"
+RETURN SUMX(FILTER(FactLoadLeg, IF(Reconciled, FactLoadLeg[reconciled_rpm_eligible] = 1, FactLoadLeg[preliminary_rpm_eligible] = 1)), FactLoadLeg[total_miles])
+
+Eligible Loaded Miles =
+VAR Reconciled = SELECTEDVALUE(DataMode[Mode], "Preliminary history") = "Reconciled subset"
+RETURN SUMX(FILTER(FactLoadLeg, IF(Reconciled, FactLoadLeg[reconciled_rpm_eligible] = 1, FactLoadLeg[preliminary_rpm_eligible] = 1)), FactLoadLeg[loaded_miles])
+
+Eligible Empty Miles =
+VAR Reconciled = SELECTEDVALUE(DataMode[Mode], "Preliminary history") = "Reconciled subset"
+RETURN SUMX(FILTER(FactLoadLeg, IF(Reconciled, FactLoadLeg[reconciled_rpm_eligible] = 1, FactLoadLeg[preliminary_rpm_eligible] = 1)), FactLoadLeg[empty_miles])
+
+Eligible Legs =
+VAR Reconciled = SELECTEDVALUE(DataMode[Mode], "Preliminary history") = "Reconciled subset"
+RETURN COUNTROWS(FILTER(FactLoadLeg, IF(Reconciled, FactLoadLeg[reconciled_rpm_eligible] = 1, FactLoadLeg[preliminary_rpm_eligible] = 1)))
+
+Weighted Total Mile RPM = DIVIDE([Candidate Owner Dollars], [Eligible Total Miles])
+Loaded Mile RPM = DIVIDE([Candidate Owner Dollars], [Eligible Loaded Miles])
+Empty Mile Share = DIVIDE([Eligible Empty Miles], [Eligible Total Miles])
+
+Reported Owner Net Due = DIVIDE(CALCULATE(SUM(FactStatement[net_due_cents]), FactStatement[document_kind] = "owner_recap"), 100)

@@ -1,0 +1,73 @@
+test_empty_and_reconciled_stay_empty (test_dashboard.MetricTests.test_empty_and_reconciled_stay_empty) ... ok
+test_generator_is_deterministic_and_rerun_safe (test_dashboard.MetricTests.test_generator_is_deterministic_and_rerun_safe) ... ok
+test_multistop_and_invoice_repetition_do_not_multiply (test_dashboard.MetricTests.test_multistop_and_invoice_repetition_do_not_multiply) ... ok
+test_repower_zero_and_approval_are_preserved_but_excluded (test_dashboard.MetricTests.test_repower_zero_and_approval_are_preserved_but_excluded) ... ok
+test_same_date_different_units_and_duplicate_revision (test_dashboard.MetricTests.test_same_date_different_units_and_duplicate_revision) ... ok
+test_sql_csv_json_repeated_export_and_snapshot_restore (test_dashboard.MetricTests.test_sql_csv_json_repeated_export_and_snapshot_restore) ... ok
+test_trainee_gross_is_not_owner_cost_and_cash_is_separate (test_dashboard.MetricTests.test_trainee_gross_is_not_owner_cost_and_cash_is_separate) ... ok
+test_weighted_unequal_distances_and_exclusions (test_dashboard.MetricTests.test_weighted_unequal_distances_and_exclusions) ... ok
+test_crash_after_commit_recovers_by_unique_decision_id (test_dashboard.ReviewTests.test_crash_after_commit_recovers_by_unique_decision_id) ... ok
+test_missing_pdf_preserves_history_and_blocks_apply (test_dashboard.ReviewTests.test_missing_pdf_preserves_history_and_blocks_apply) ... ok
+test_persistence_duplicate_and_request_collision (test_dashboard.ReviewTests.test_persistence_duplicate_and_request_collision) ... ok
+test_proposals_and_defer_never_claim_applied (test_dashboard.ReviewTests.test_proposals_and_defer_never_claim_applied) ... ok
+test_reparse_preserves_stable_identity_but_rejects_old_revision (test_dashboard.ReviewTests.test_reparse_preserves_stable_identity_but_rejects_old_revision) ... ok
+test_snapshot_publication_failure_keeps_prior_batch_then_recovers (test_dashboard.ReviewTests.test_snapshot_publication_failure_keeps_prior_batch_then_recovers) ... ok
+test_source_path_traversal_rejected (test_dashboard.ReviewTests.test_source_path_traversal_rejected) ... ok
+test_stale_value_and_reparse_rejected (test_dashboard.ReviewTests.test_stale_value_and_reparse_rejected) ... ok
+test_two_plants_one_organization_and_versioned_mapping (test_dashboard.ReviewTests.test_two_plants_one_organization_and_versioned_mapping) ... ok
+test_validation_failure_rolls_back_and_retry_succeeds (test_dashboard.ReviewTests.test_validation_failure_rolls_back_and_retry_succeeds) ... ok
+test_all_four_pages_and_reconciled_empty (test_dashboard.ScreenTests.test_all_four_pages_and_reconciled_empty) ... 2026-09-28 06:11:26.049 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-09-28 06:11:29.901 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_all_four_pages_with_empty_reporting_dataset (test_dashboard.ScreenTests.test_all_four_pages_with_empty_reporting_dataset) ... 2026-09-28 06:11:30.176 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_missing_anchor_is_unsupported (test_invoice_details.InvoiceFormTests.test_missing_anchor_is_unsupported) ... ok
+test_single_name_does_not_invent_an_address (test_invoice_details.InvoiceFormTests.test_single_name_does_not_invent_an_address) ... ok
+test_three_distinct_roles_with_source_locators (test_invoice_details.InvoiceFormTests.test_three_distinct_roles_with_source_locators) ... ok
+test_conflicting_readings_are_not_chosen_for_convenience (test_prime_structure.FinancialEvidenceTests.test_conflicting_readings_are_not_chosen_for_convenience) ... ok
+test_credit_signs_survive (test_prime_structure.FinancialEvidenceTests.test_credit_signs_survive) ... ok
+test_dates_are_not_shifted_to_friday (test_prime_structure.FinancialEvidenceTests.test_dates_are_not_shifted_to_friday) ... ok
+test_employee_year_to_date_summary_is_not_owner_revenue (test_prime_structure.FinancialEvidenceTests.test_employee_year_to_date_summary_is_not_owner_revenue) ... ok
+test_missing_is_not_zero (test_prime_structure.FinancialEvidenceTests.test_missing_is_not_zero) ... ok
+test_neighboring_column_is_not_added_to_amount (test_prime_structure.FinancialEvidenceTests.test_neighboring_column_is_not_added_to_amount) ... ok
+test_no_invented_punctuation_or_merged_amounts (test_prime_structure.FinancialEvidenceTests.test_no_invented_punctuation_or_merged_amounts) ... ok
+test_single_reader_is_explicit (test_prime_structure.FinancialEvidenceTests.test_single_reader_is_explicit) ... ok
+test_zero_letter_normalization_is_recorded (test_prime_structure.FinancialEvidenceTests.test_zero_letter_normalization_is_recorded) ... ok
+test_apostrophe_is_part_of_city (test_routes.RouteTests.test_apostrophe_is_part_of_city) ... ok
+test_damaged_state_is_retained_for_review (test_routes.RouteTests.test_damaged_state_is_retained_for_review) ... ok
+test_east_prefix_is_not_an_empty_segment_marker (test_routes.RouteTests.test_east_prefix_is_not_an_empty_segment_marker) ... ok
+test_empty_movement_has_no_invented_loaded_stop (test_routes.RouteTests.test_empty_movement_has_no_invented_loaded_stop) ... ok
+test_multistop_with_empty_approach (test_routes.RouteTests.test_multistop_with_empty_approach) ... ok
+test_ocr_digits_in_city_are_preserved (test_routes.RouteTests.test_ocr_digits_in_city_are_preserved) ... ok
+test_prose_and_financial_lines_are_rejected (test_routes.RouteTests.test_prose_and_financial_lines_are_rejected) ... ok
+test_punctuated_state_is_retained_for_review (test_routes.RouteTests.test_punctuated_state_is_retained_for_review) ... ok
+test_punctuation_and_multiword_city (test_routes.RouteTests.test_punctuation_and_multiword_city) ... ok
+test_unicode_city_spelling_is_preserved (test_routes.RouteTests.test_unicode_city_spelling_is_preserved) ... ok
+test_unmarked_continuation_must_have_known_state (test_routes.RouteTests.test_unmarked_continuation_must_have_known_state) ... ok
+test_conflicting_money_does_not_become_a_balancing_entry (test_source_reviews.DeductionTests.test_conflicting_money_does_not_become_a_balancing_entry) ... ok
+test_prose_and_missing_money_are_not_postings (test_source_reviews.DeductionTests.test_prose_and_missing_money_are_not_postings) ... ok
+test_uncoded_fund_and_replacement_check (test_source_reviews.DeductionTests.test_uncoded_fund_and_replacement_check) ... ok
+test_changed_source_and_ledger_mutations_fail (test_source_reviews.ReviewTests.test_changed_source_and_ledger_mutations_fail) ... ok
+test_exact_field_page_and_line_only (test_source_reviews.ReviewTests.test_exact_field_page_and_line_only) ... ok
+test_other_job_cannot_inherit_review (test_source_reviews.ReviewTests.test_other_job_cannot_inherit_review) ... ok
+test_superseding_review_changes_signature_preserves_history (test_source_reviews.ReviewTests.test_superseding_review_changes_signature_preserves_history) ... ok
+test_conflicting_repeated_totals_stay_unknown (test_workbench.AnalysisTests.test_conflicting_repeated_totals_stay_unknown) ... ok
+test_lane_rate_is_weighted (test_workbench.AnalysisTests.test_lane_rate_is_weighted) ... ok
+test_multiple_legs_are_not_each_allocated_full_dispatch_revenue (test_workbench.AnalysisTests.test_multiple_legs_are_not_each_allocated_full_dispatch_revenue) ... ok
+test_stop_join_does_not_multiply_revenue (test_workbench.AnalysisTests.test_stop_join_does_not_multiply_revenue) ... ok
+test_unknown_accessorial_prevents_partial_revenue_sum (test_workbench.AnalysisTests.test_unknown_accessorial_prevents_partial_revenue_sum) ... ok
+test_zero_miles_has_no_rate (test_workbench.AnalysisTests.test_zero_miles_has_no_rate) ... ok
+test_column_boundaries (test_workbench.ReadingTests.test_column_boundaries) ... ok
+test_conflicting_digits_stay_unknown (test_workbench.ReadingTests.test_conflicting_digits_stay_unknown) ... ok
+test_credit_signs (test_workbench.ReadingTests.test_credit_signs) ... ok
+test_dates_are_never_shifted_to_friday (test_workbench.ReadingTests.test_dates_are_never_shifted_to_friday) ... ok
+test_letter_normalization_has_evidence (test_workbench.ReadingTests.test_letter_normalization_has_evidence) ... ok
+test_missing_is_not_zero (test_workbench.ReadingTests.test_missing_is_not_zero) ... ok
+test_no_invented_decimal_or_joined_amount (test_workbench.ReadingTests.test_no_invented_decimal_or_joined_amount) ... ok
+test_numeric_header_requires_compatible_known_digits (test_workbench.ReadingTests.test_numeric_header_requires_compatible_known_digits) ... ok
+test_supporting_tolls_do_not_supply_owner_dates (test_workbench.ReadingTests.test_supporting_tolls_do_not_supply_owner_dates) ... ok
+
+----------------------------------------------------------------------
+Ran 65 tests in 7.765s
+
+OK
