@@ -98,3 +98,5 @@ The separate [Power Platform lab](https://github.com/christopher-sheppard/prime-
 | [docs/](docs/) | Case study, architecture, reporting contract and operating guides |
 
 [Release provenance](docs/REPOSITORY_PROVENANCE.md) records the supplied baseline and independent verification. Existing private installations and newer workstation work are maintained separately from this portfolio snapshot.
+
+The [original release notes](Jobs_Prime_Release/) and [archive manifest](release_manifest.json) describe the September 28 input archive before repository publication. Their publication and Microsoft-workflow status statements are historical; see [current Microsoft status](powerplatform/STATUS.md) for the separately tracked Power Platform build.
